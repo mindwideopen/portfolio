@@ -9,11 +9,11 @@ export const Header = () => {
             <Logo/>
             <Menu/>
 
-
         </StyledHeader>
     );
 };
 const StyledHeader=styled.header`
+  
 background-color: aquamarine;
   display: flex;
   justify-content: space-between;
