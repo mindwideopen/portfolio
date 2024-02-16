@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import FlexWrapper from "../flexwrapper/FlexWrapper";
+import FlexWrapper from "../../flexwrapper/FlexWrapper";
 
 const PortfolioNavigation = () => {
     return (
