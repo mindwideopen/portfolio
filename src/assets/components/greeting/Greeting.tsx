@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import SocialMedia from "../socialmedia/SocoalMedia";
+import SocialMedia from "../socialmedia/SocalMedia";
 import FlexWrapper from "../flexwrapper/FlexWrapper";
 
 const Intro = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import FlexWrapper from "../flexwrapper/FlexWrapper";
-import Icon from "../icon/Icon";
+import Icon from "../icon/IconSkill";
 import {SingleDescription} from "../singledescription/SingleDesription";
 import styled from "styled-components";
 

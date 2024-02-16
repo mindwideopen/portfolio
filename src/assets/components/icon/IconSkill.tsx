@@ -2,14 +2,15 @@ import React from 'react';
 import IconsSprite from '../../img/svg/sprite-icons.svg'
 
 
-type IconPropsType = {
+
+type IconSkillPropsType = {
     iconId: string,
     width?: string,
     height?: string,
     viewBox?: string
 
 }
-const Icon = (props: IconPropsType) => {
+const IconSkill = (props: IconSkillPropsType) => {
     return (
         <svg
              width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -19,4 +20,4 @@ const Icon = (props: IconPropsType) => {
     );
 };
 
-export default Icon;
+export default IconSkill;
