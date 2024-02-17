@@ -11,6 +11,7 @@ type FlexWrapperPropsType = {
     backgroundColor?:string,
     gap?: string,
     width?: string,
+    position?: string
 
 
 
@@ -18,6 +19,7 @@ type FlexWrapperPropsType = {
 }
 
 const FlexWrapper = styled.div<FlexWrapperPropsType>`
+  
   
   
   display: flex;
@@ -29,6 +31,7 @@ const FlexWrapper = styled.div<FlexWrapperPropsType>`
   text-align:${props => props.textAlign || 'left'}; 
   gap: ${props => props.gap || '0'};
   max-width: ${props => props.width || 'auto'};
+  position: ${props => props.position};
   
   
   

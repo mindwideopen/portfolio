@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from "styled-components";
-import Intro from "../../assets/components/greeting/Greeting";
 import FlexWrapper from "../../assets/components/flexwrapper/FlexWrapper";
 import SectionTitle from "../../assets/components/sectionTitle/SectionTitle";
 import {SingleDescription} from "../../assets/components/singledescription/SingleDesription";

@@ -1,20 +1,28 @@
 import React from 'react';
-import FbIcon from '../../img/svg/sprite-social-icons.svg'
-import IconSkill from "../icon/IconSkill";
-import IconSocial from "../icon/IconSocial";
+
+import styled from "styled-components";
 
 
 
 
 const SocialMedia = () => {
     return (
-        <div>
-            <IconSkill iconId={'sbr'}/>
-            <IconSocial iconId={'fb'}/>
-        </div>
+
+
+    <SocialMediaStyled>
+
+    </SocialMediaStyled>
+
+
+
 
 
     );
 };
+
+
+const SocialMediaStyled=styled.div`
+  margin-top: auto;
+  `
 
 export default SocialMedia;

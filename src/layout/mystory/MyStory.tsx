@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import Intro from "../../assets/components/greeting/Greeting";
+import Intro from "../../assets/components/intro/Intro";
 
 
 const MyStory = () => {

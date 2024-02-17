@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import Intro from "../../assets/components/greeting/Greeting";
+import Intro from "../../assets/components/intro/Intro";
 
 
 const Main = () => {
@@ -16,6 +16,7 @@ const MainStyled=styled.main`
   min-height: 368px;
   
   background-color: cornflowerblue;
+  position:relative
   
 
 `
