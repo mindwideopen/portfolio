@@ -1,17 +1,37 @@
 import React from 'react';
 import FlexWrapper from "../flexwrapper/FlexWrapper";
-import Icon from "../icon/IconSkill";
-import {SingleDescription} from "../singledescription/SingleDesription";
+import Icon from "../icon/IconBrand";
+import {SingleDescriptionStyled} from "../singledescription/SingleDesription";
 import styled from "styled-components";
+import IconBrand from "../icon/IconBrand";
+import IconSocial from "../icon/IconSocial";
 
 
-export const Activity = () => {
+type ActivityPropsType = {
+    brand: string,
+    activity: string,
+    description: string
+    }
+
+type ActivityTypePropsType = {
+    activity: string
+}
+const ActivityType = (props: ActivityTypePropsType) => {
+    return(
+        <div>
+            {props.activity}
+        </div>
+    )
+}
+
+export const Activity = (props: ActivityPropsType) => {
+
     return (
         <ActivityStyled>
 
-                <Icon iconId={'sbr'}/>
-                <ActivityType activity={'Branding Design'}/>
-                <SingleDescription description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci eget mi elit cursus donec amet sed sagittis.'}/>
+                <IconSocial iconId={props.brand}/>
+                <ActivityType activity={props.activity}/>
+                <SingleDescriptionStyled>{props.description}</SingleDescriptionStyled>
 
         </ActivityStyled>
 
@@ -32,14 +52,5 @@ background-color: #FDFDFD;
 `
 
 
-type ActivityTypePropsType = {
-    activity: string
-}
-const ActivityType = (props: ActivityTypePropsType) => {
-    return(
-        <div>
-            {props.activity}
-        </div>
-    )
-}
+
 export default Activity;

@@ -1,23 +1,22 @@
 import React from 'react';
-import IconsSprite from '../../img/svg/fb-icon.svg'
+import SpriteIconSocial from '../../img/svg/socialIcons/SpriteSocialIcons.svg'
+
 
 
 
 type IconSocialPropsType = {
     iconId: string,
-    width?: string,
-    height?: string,
-    viewBox?: string
+
 
 }
-const IconSkill = (props: IconSocialPropsType) => {
+const IconSocial = (props: IconSocialPropsType) => {
     return (
         <svg
-             width="30" height="55" viewBox="15 15 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <use xlinkHref={`${IconsSprite}#${props.iconId}`}/>
+            viewBox="0 0 24 24" width="24px" height="24px"  xmlns="http://www.w3.org/2000/svg">
+            <use xlinkHref={`${SpriteIconSocial}#${props.iconId}`}/>
 
         </svg>
     );
 };
 
-export default IconSkill;
+export default IconSocial;
