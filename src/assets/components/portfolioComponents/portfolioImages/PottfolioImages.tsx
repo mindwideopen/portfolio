@@ -10,31 +10,36 @@ import sxth from "../../../img/portfolioImages/portfolio_deers.webp"
 import svnth from "../../../img/portfolioImages/portfolio_man_from_back.webp"
 import eigth from "../../../img/portfolioImages/portfolio_book.webp"
 import nnth from "../../../img/portfolioImages/portfolio_girli_white_t-shirt.webp"
+import PortfolioImageCell from "../portfolioImageCell/portfolioImageCell";
 
 
 
-let imagesArray = [frst, scnd, thrd, frth, ffth,sxth, svnth,eigth, nnth]
 
-let images =  imagesArray.map(image => image)
+
+
+
 
 const PortfolioImages = () => {
+
+    let imagesArray = [frst, scnd, thrd, frth, ffth,sxth, svnth,eigth, nnth]
+
+
     return (
-<PortfolioImagesStyled>
-    <FlexWrapper>
+        <FlexWrapper direction={'row'} wrap={'wrap'} width={'1274px'} justify={'center'} gap={'40px'}>
+            {imagesArray.map(img => <PortfolioImageCell src={img}/>)}
+        </FlexWrapper>
 
-    </FlexWrapper>
 
-</PortfolioImagesStyled>
+
+
+
+
+
     );
 };
 
 export default PortfolioImages;
 
 
-const PortfolioImagesStyled = styled.section`
-min-width: 1274px;
-  min-height: 1430px; 
-  border: 2px solid black;
-  
 
-`
+
