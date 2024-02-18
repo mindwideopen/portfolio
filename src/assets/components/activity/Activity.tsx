@@ -1,10 +1,11 @@
 import React from 'react';
 import FlexWrapper from "../flexwrapper/FlexWrapper";
 import Icon from "../icon/IconBrand";
-import {SingleDescriptionStyled} from "../singledescription/SingleDesription";
+
 import styled from "styled-components";
 import IconBrand from "../icon/IconBrand";
 import IconSocial from "../icon/IconSocial";
+import {SingleDescription} from "./singledescription/SingleDesription";
 
 
 type ActivityPropsType = {
@@ -31,7 +32,7 @@ export const Activity = (props: ActivityPropsType) => {
 
                 <IconSocial iconId={props.brand}/>
                 <ActivityType activity={props.activity}/>
-                <SingleDescriptionStyled>{props.description}</SingleDescriptionStyled>
+                <SingleDescription></SingleDescription>
 
         </ActivityStyled>
 

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import FlexWrapper from "../../assets/components/flexwrapper/FlexWrapper";
 import SectionTitle from "../../assets/components/sectionTitle/SectionTitle";
-import {SingleDescription} from "../../assets/components/singledescription/SingleDesription";
+import {SingleDescription} from "../../assets/components/activity/singledescription/SingleDesription";
 import Activity from "../../assets/components/activity/Activity";
 import {SwitchStyled} from "../../assets/components/switch/Switch";
 

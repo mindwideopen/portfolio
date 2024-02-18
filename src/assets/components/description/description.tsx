@@ -1,5 +1,5 @@
 import React from 'react';
-import {SingleDescription} from "../singledescription/SingleDesription";
+import {SingleDescription} from "../activity/singledescription/SingleDesription";
 
 const Description = () => {
     return (
