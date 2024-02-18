@@ -1,9 +1,5 @@
 import React from 'react';
-import FlexWrapper from "../flexwrapper/FlexWrapper";
-import Icon from "../icon/IconBrand";
-
 import styled from "styled-components";
-import IconBrand from "../icon/IconBrand";
 import IconSocial from "../icon/IconSocial";
 import {SingleDescription} from "./singledescription/SingleDesription";
 
