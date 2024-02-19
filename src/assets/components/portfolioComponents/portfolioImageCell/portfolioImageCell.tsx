@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from "styled-components";
 
+
 type ImageCellPropsType = {
-    width?: string,
-    height?: string,
+
     src: string
 
 }
@@ -11,29 +11,21 @@ type ImageCellPropsType = {
 const PortfolioImageCell = (props:ImageCellPropsType) => {
 
     return (
+        <ImageCellStyled src={props.src}/>
 
-        <img  src={props.src} width={'358px'} height={'411px'} alt='img'/>    );
 
+    )
 };
 
 export default PortfolioImageCell;
 
 
 
-// type PortfolioImageCellStyled = {
-//     width?: string,
-//     height?: string,
-//     src: string
-//
-// }
-// const PortfolioImageCellStyled = styled.image<PortfolioImageCellStyled>`
-//   width: ${props => props.width};
-//   height: ${props => props.height};
-//
-//
-//
-// `
+const ImageCellStyled=styled.img`
+  object-fit: cover;
+  
 
-
-
-
+    width: 412px;
+  height: 358px;
+ 
+`

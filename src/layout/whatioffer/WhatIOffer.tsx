@@ -12,15 +12,17 @@ const WhatIOffer = () => {
     return (
         <WhatIOfferStyled>
             <FlexWrapper direction={'column'} justify={'center'} align={'center'} textAlign={'center'}  >
+
                 <SectionTitle text={'What I Offer'}/>
-                <SingleDescription description={'Things that I can do for my clients. ' +
-                    'Just make your good trust I love to provide quality works.'}/>
+                <SingleDescription description={'Things that I can do for my clients. Just make your good trust I love to provide quality works.'}/>
                 <FlexWrapper  justify={'center'} wrap={'wrap'} gap={'28px'} >
                     <Activity brand={'youtube'} activity={'Sales'} description={'Продаст любой айфон'}/>
                     <Activity brand={'youtube'} activity={'Sales'} description={'Продаст любой айфон'}/>
                     <Activity brand={'youtube'} activity={'Sales'} description={'Продаст любой айфон'}/>
 
                 </FlexWrapper>
+
+
                 <FlexWrapper align={'center'} justify={'center'}>
                     <SwitchStyled selected />
                     <SwitchStyled />

@@ -5,29 +5,27 @@ type SingleDescriptionPropsType = {
     description?: string,
     margin?: string
 }
-export const SingleDescription = (props:SingleDescriptionPropsType) => {
+export const SingleDescription = (props: SingleDescriptionPropsType) => {
     return (
-        <SingleDescriptionStyled>
 
+        <div>
             {props.description}
+        </div>
 
-        </SingleDescriptionStyled>
+
     );
 };
 
 type SingleDescriptionStyledPropsType = {
 
-    margin?:string
+    margin?: string
 }
 const SingleDescriptionStyled = styled.div<SingleDescriptionStyledPropsType>`
   color: red;
   width: 531px;
-  
-  font-size: 16px;
-  
-  
-;
-    
+
+  font-size: 16px;;
+
 `
 
 

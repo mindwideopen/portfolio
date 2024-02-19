@@ -28,7 +28,7 @@ export const Activity = (props: ActivityPropsType) => {
 
                 <IconSocial iconId={props.brand}/>
                 <ActivityType activity={props.activity}/>
-                <SingleDescription></SingleDescription>
+                <SingleDescription description={props.description}></SingleDescription>
 
         </ActivityStyled>
 
