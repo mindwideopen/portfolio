@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from "styled-components";
 import FlexWrapper from "../../flexwrapper/FlexWrapper";
 import first from "../../../img/portfolioImages/portFolio_jot_ultra.webp"
 import second from "../../../img/portfolioImages/portfolio_girl_in_aquas.jpg"
@@ -22,15 +21,8 @@ const PortfolioImages = () => {
         <FlexWrapper direction={'row'} wrap={'wrap'} width={'1274px'} justify={'center'} gap={'40px'}>
 
             {imagesArray.map(img =>  <PortfolioImageCell src={img}/>)}
+
         </FlexWrapper>
-
-
-
-
-
-
-
-
     );
 };
 

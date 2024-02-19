@@ -16,17 +16,7 @@ export const SingleDescription = (props: SingleDescriptionPropsType) => {
     );
 };
 
-type SingleDescriptionStyledPropsType = {
 
-    margin?: string
-}
-const SingleDescriptionStyled = styled.div<SingleDescriptionStyledPropsType>`
-  color: red;
-  width: 531px;
-
-  font-size: 16px;;
-
-`
 
 
 
