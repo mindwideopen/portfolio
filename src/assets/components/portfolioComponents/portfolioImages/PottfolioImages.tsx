@@ -18,7 +18,7 @@ const PortfolioImages = () => {
     let imagesArray = [first, second, third, fourth, fifth,sixth, seventh,eighth, ninth]
 
     return (
-        <FlexWrapper direction={'row'} wrap={'wrap'} width={'1274px'} justify={'center'} gap={'40px'}>
+        <FlexWrapper  wrap={'wrap'} width={'1276px'} gap={'20px'} justify={'space-between'}  >
 
             {imagesArray.map(img =>  <PortfolioImageCell src={img}/>)}
 
