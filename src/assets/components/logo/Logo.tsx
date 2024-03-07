@@ -4,29 +4,24 @@ import FlexWrapper from "../flexwrapper/FlexWrapper";
 
  const Logo = () => {
     return (
-        <FlexWrapper>
+
             <LogoStyled>
-                <p>Nik</p>
+                <span>Nik</span>
+                <span>Lit</span>
             </LogoStyled>
-        </FlexWrapper>
+
 
     );
 };
 
 const LogoStyled=styled.div`
     
-     p {
+     span {
        
        font-size: 40px;
-       margin: 0;
-       margin-left: 10px;
+      
        padding: 0;
      }
-        p:after {
-      content: ' Lit ';
-      font-size: 40px;
-          margin: 0;
-          padding: 0;
-    }
+        
 `
 export default Logo;

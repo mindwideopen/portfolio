@@ -6,23 +6,23 @@ import FlexWrapper from "../../assets/components/flexwrapper/FlexWrapper";
 import TechnologyRate from "../../assets/components/technologyrate/TechnologyRate";
 
 const SectionAboutMe = () => {
-    return (<SectionAboutMeStyled>
-            <FlexWrapper wrap={'wrap'} justify={'center'} align={'center'}>
-                <ContentAboutMe/>
-                <TechnologyRate/>
-            </FlexWrapper>
+    return ( <div>
+            <SectionAboutMeStyled>
 
-
+                <FlexWrapper wrap={'wrap'} justify={'center'} align={'center'}>
+                    <ContentAboutMe/>
+                    <TechnologyRate/>
+                </FlexWrapper>
             </SectionAboutMeStyled>
+    </div>
+
     );
 };
 
-const SectionAboutMeStyled=styled.div`
-  
-background-color: cadetblue;
-  
-  
-`
+const SectionAboutMeStyled=styled.div`  
+
+  background-color: cadetblue;
+  `
 
 
 export default SectionAboutMe;

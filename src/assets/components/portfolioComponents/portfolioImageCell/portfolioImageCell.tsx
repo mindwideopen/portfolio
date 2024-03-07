@@ -25,7 +25,7 @@ const ImageCellStyled=styled.img`
   object-fit: cover;
   
 
-    width: 412px;
+  width: 412px;
   height: 358px;
  
 `

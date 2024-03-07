@@ -9,10 +9,10 @@ type IconBrandPropsType = {
 
 }
 const IconBrand = (props: IconBrandPropsType) => {
-    debugger
+
     return (
         <svg
-            width="60" height="77" viewBox="0 0 60 77" fill="black" xmlns="http://www.w3.org/2000/svg">
+            width="77" height="77" viewBox="0 0 77 77" fill="black" xmlns="http://www.w3.org/2000/svg">
             <use xlinkHref={`${SpriteBrandIcons}#${props.iconId}`}/>
 
         </svg>

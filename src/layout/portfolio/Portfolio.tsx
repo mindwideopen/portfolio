@@ -5,11 +5,15 @@ import PortfolioNavigation from "../../assets/components/portfolioComponents/por
 import FlexWrapper from "../../assets/components/flexwrapper/FlexWrapper";
 import PortfolioImages from "../../assets/components/portfolioComponents/portfolioImages/PottfolioImages";
 
+
+
+const items = ['All', 'Branding', 'T-Shirt', 'Package','Poster']
+
 const Portfolio = () => {
     return <PortfolioStyled>
-        <FlexWrapper direction={'column'} align={'center'}>
+        <FlexWrapper direction={'column'} align={'center'} >
             <SectionTitle text={'Portfolio'}/>
-            <PortfolioNavigation/>
+            <PortfolioNavigation menuItems={items}/>
             <PortfolioImages/>
         </FlexWrapper>
 

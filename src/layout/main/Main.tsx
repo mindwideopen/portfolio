@@ -13,7 +13,7 @@ const Main = () => {
 
 const MainStyled=styled.main`
   
-  min-height: 368px;
+  
   
   background-color: cornflowerblue;
   position:relative

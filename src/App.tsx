@@ -7,18 +7,20 @@ import Portfolio from "./layout/portfolio/Portfolio";
 import Testimonials from "./layout/testimonials/Testimonials";
 
 import BrandsIveWorked from "./layout/brandsIveWorked/BrandsIveWorked";
+import {BlogPosts} from "./layout/blogPosts/BlogPosts";
 
 
 function App() {
     return (
         <div>
             <Header/>
-            <Main/>
             <SectionAboutMe/>
             <WhatIOffer/>
             <Portfolio/>
             <BrandsIveWorked/>
             <Testimonials/>
+            <BlogPosts/>
+
         </div>
 
 

@@ -9,7 +9,8 @@ import FlexWrapper from "../../assets/components/flexwrapper/FlexWrapper";
 const ContentAboutMe = () => {
     return (
        <FlexWrapper  direction={'column'} wrap={'wrap'} >
-           <SectionTitle text={'About Me'}/>
+           <SectionTitle text={'About me'} margin={'0 0 37px 0'}/>
+
            <Description/>
            <FlexWrapper>
                <Button action={'HIRE ME'} color={'#F5F5F5'} backgroundColor={'#3F3F3F'} />

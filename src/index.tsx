@@ -18,7 +18,7 @@ const Global = createGlobalStyle`
   font-weight: normal; 
   
 }
-p, div {
+p, div{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -26,6 +26,10 @@ p, div {
 li {
   list-style: none;
   
+}
+a {
+  text-decoration: none;
+  text-underline: none;
 }
 
 `

@@ -20,14 +20,13 @@ const WhatIOffer = () => {
                     <Activity brand={'youtube'} activity={'Sales'} description={'Продаст любой айфон'}/>
                     <Activity brand={'youtube'} activity={'Sales'} description={'Продаст любой айфон'}/>
 
-                </FlexWrapper>
 
-
-                <FlexWrapper align={'center'} justify={'center'}>
-                    <SwitchStyled selected />
-                    <SwitchStyled />
-                    <SwitchStyled />
                 </FlexWrapper>
+                <Pagination>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </Pagination>
             </FlexWrapper>
         </WhatIOfferStyled>
     );
@@ -43,3 +42,12 @@ const WhatIOfferStyled = styled.main`
 
 export default WhatIOffer
 ;
+
+const Pagination = styled.span`
+    
+    span {display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 60px 8px 0 8px;
+  background-color: red}
+`

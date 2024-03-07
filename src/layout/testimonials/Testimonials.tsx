@@ -10,27 +10,19 @@ export const Testimonials = () => {
     return (
 
             <TestimonialsStyled>
-                <FlexWrapper  alignContent={'space-between'}>
+                <FlexWrapper  justify={'center'} margin={'140px 0 160px 0'}>
                     <ImageStyled src={emma}/>
                     <div>
-                        <SingleDescription description={"“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dapibus eu placerat at nisl posuere aliquet amet pharetra malesuada. Suspendisse nisl ac at tortor. Sit faucibus placerat at nisl posuere aliquet amet pharetra suspendisse risus.”"}
+                        <SingleDescription margin={'116px 0 0 114px'} description={"“Lorem ipsum dolor sit amet, consectetur adipiscing elit." +
+                            " Dapibus eu placerat at nisl posuere aliquet amet pharetra malesuada. Suspendisse nisl ac at " +
+                            "tortor. Sit faucibus placerat at nisl posuere aliquet amet pharetra suspendisse risus.”"} />
 
-                                            />
+                        <SingleDescription margin={'44px 0 0 114px'} description={'Emma Brown'} />
 
-
-
-                        <SingleDescription description={'Emma Brown'} margin={'10px'}/>
-
-                        <SingleDescription description={'CEO - Squirrel Sweets'} margin={'10px'}/>
+                        <SingleDescription margin={'6px 0 0 114px'} description={'CEO - Squirrel Sweets'} />
 
 
                     </div>
-
-
-
-
-
-
                 </FlexWrapper>
             </TestimonialsStyled>
 
@@ -51,12 +43,13 @@ type TestimonialsStyledPropsType = {
 const TestimonialsStyled = styled.section<TestimonialsStyledPropsType>`
 
   height: 359px;
+  margin-bottom: 160px;
   
 
 `
 
 const ImageStyled = styled.img`
-  box-sizing: content-box;
+  
     width: 589px;
   height: 359px;
   object-fit: cover;

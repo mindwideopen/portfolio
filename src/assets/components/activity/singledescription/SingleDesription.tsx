@@ -34,7 +34,7 @@ const SingleDescriptionStyled= styled.p<SingleDescriptionStyledPropsType>`
   max-width: 533px;
 
   margin: ${props=> props.margin};
-  margin-left:0;
+  
   font: ${props => props.font};
   font-size: ${props => props.fontSize};
   line-height:${props => props.lineHeight}   
