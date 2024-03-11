@@ -8,6 +8,8 @@ import Testimonials from "./layout/testimonials/Testimonials";
 
 import BrandsIveWorked from "./layout/brandsIveWorked/BrandsIveWorked";
 import {BlogPosts} from "./layout/blogPosts/BlogPosts";
+import React from "react";
+import Achievements from "./layout/achievements/Achievements";
 
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
             <BrandsIveWorked/>
             <Testimonials/>
             <BlogPosts/>
+            <Achievements/>
 
         </div>
 
