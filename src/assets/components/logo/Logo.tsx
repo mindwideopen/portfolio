@@ -1,13 +1,13 @@
 import React from 'react';
 import styled from "styled-components";
-import FlexWrapper from "../flexwrapper/FlexWrapper";
+
 
  const Logo = () => {
     return (
 
             <LogoStyled>
-                <span>Nik</span>
-                <span>Lit</span>
+                <span>Nikolay</span>
+                <span>Litvinov</span>
             </LogoStyled>
 
 
